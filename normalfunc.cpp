@@ -2,21 +2,21 @@
 using namespace std; 
 
 /*CODE SNIPPIT1*/
-// typedef struct{
-//     char n[30],u[20]; 
-//     int m; 
-// }stud; 
+typedef struct{
+    char n[30],u[20]; 
+    int m; 
+}stud; 
 
-// void test(stud * x){
-//     cout<<x->n<<endl;
-// }
+void test(stud * x){
+    cout<<x->n<<endl;
+}
 
-// int main(){
-//     //THE BELOW LINE OF CODE DOESN'T WORK
-//     //test("RNSIT"); //"RNSIT" must be typcaseted
-//     test((stud *) "RNSIT");
-//     return 0; 
-// }
+int main(){
+    //THE BELOW LINE OF CODE DOESN'T WORK
+    //test("RNSIT"); //"RNSIT" must be typcaseted
+    test((stud *) "RNSIT");
+    return 0; 
+}
 
 /*CODE SNIPPIT 2*/
 // class comp{
